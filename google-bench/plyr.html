@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Plyr Embed</title>
+
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.5.3/plyr.css" />
+</head>
+<body>
+  <h1>Hello! This is web page</h1>
+
+  <video poster="./bbb.jpg" id="player" playsinline controls>
+    <source src="./bbb.mp4" type="video/mp4" />
+  </video>
+
+  <script src="https://cdn.plyr.io/3.5.3/plyr.js"></script>
+  <script>
+    const player = new Plyr('#player');
+  </script>
+</body>
+</html>
